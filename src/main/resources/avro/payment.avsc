@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "Payment",
+  "namespace": "io.surajit.avro.model",
+  "fields": [
+    { "name": "paymentId", "type": "string" },
+    { "name": "amount", "type": "double" },
+    { "name": "currency", "type": "string", "default": "EUR" }
+  ]
+}
